@@ -43,7 +43,7 @@
 ![image](https://user-images.githubusercontent.com/106533930/192211002-9656baa0-6202-42a9-beb1-7d09b72f87c1.png)
 
 # Usecase діаграма 
-![image](https://user-images.githubusercontent.com/106533930/192211822-8215eab7-9701-48de-8bb5-02196e1d1c23.png)
+![image](https://user-images.githubusercontent.com/106533930/192218233-c929dd4a-b489-49a6-9fed-285a94745be1.png)
 
 
 
