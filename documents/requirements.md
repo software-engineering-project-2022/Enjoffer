@@ -29,3 +29,19 @@
 ### Робота з даними ADO.NET / PostgreSQL
 ### Статичне вікно зафіксованого розміру, масштабування не передбачене
 ### Шифрування паролів користувачів
+
+
+# Схематична розмітка вікон
+
+![image](https://user-images.githubusercontent.com/106533930/192211151-592259f6-2a49-4775-a9f6-77c19991b21b.png)
+![image](https://user-images.githubusercontent.com/106533930/192211197-817ccc6a-b515-4a4d-9a5c-4c33d56aaaf1.png)
+![image](https://user-images.githubusercontent.com/106533930/192210826-d71255c6-77e4-42ce-8e6e-c0a36a01d642.png)
+![image](https://user-images.githubusercontent.com/106533930/192210857-0435146f-5de0-46d6-9e30-2f90f63eae85.png)
+![image](https://user-images.githubusercontent.com/106533930/192210924-f2845b08-bffd-400d-8855-02e6a2a8ade4.png)
+![image](https://user-images.githubusercontent.com/106533930/192210962-d5c19b44-0b69-495a-898d-450202c82686.png)
+![image](https://user-images.githubusercontent.com/106533930/192211002-9656baa0-6202-42a9-beb1-7d09b72f87c1.png)
+
+
+
+
+
