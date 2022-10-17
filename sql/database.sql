@@ -1,9 +1,9 @@
 <<<<<<< HEAD
 CREATE DATABASE enjoffer;
 
-CREATE TYPE professions_type AS ENUM('Програміст', 'Лікар', 'Математик');
+CREATE TYPE professions_type AS ENUM('Розробник', 'Терапевт', 'Математик');
 
-CREATE DOMAIN password_size AS VARCHAR(255) CHECK(VALUE LIKE '______%');
+CREATE DOMAIN password_size AS TEXT CHECK(VALUE LIKE '______%');
 
 CREATE TABLE professions(profession_id SERIAL, profession_name professions_type);
 
@@ -29,7 +29,7 @@ CREATE TABLE books(
 	book_content TEXT NOT NULL,
 	number_of_pages INT DEFAULT 1,
 	book_cover_img VARCHAR(255),
-	last_viewed_page INT
+	last_viewed_page INT DEFAULT 1
 );
 
 ALTER TABLE books
@@ -37,7 +37,8 @@ ADD CONSTRAINT book_unique UNIQUE(title);
 
 CREATE TABLE sentences(
 	sentence_id SERIAL PRIMARY KEY,
-	sentence TEXT NOT NULL
+	sentence TEXT NOT NULL,
+	fk_book_id INT REFERENCES books(book_id)
 );
 
 ALTER TABLE sentences
