@@ -5,8 +5,51 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:wpfEnjoffer"
         mc:Ignorable="d"
-        Title="MainWindow" Height="451" Width="801">
-    <Grid>
+        Title="MainWindow" Height="720" Width="1024">
+    <Grid Margin="320,144,321,198">
+        <TabControl Margin="0,-57,0,-35">
+            <TabItem Header="Вхід" Margin="-2,0,-42,0">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Label HorizontalAlignment="Left" Margin="99,74,0,0" VerticalAlignment="Top" Width="173">
+                        <Label Content="Логін"/>
+                    </Label>
+                    <PasswordBox HorizontalAlignment="Left" Margin="97,213,0,0" VerticalAlignment="Top" Width="175" Height="28"/>
+                    <Label HorizontalAlignment="Left" Margin="99,168,0,0" VerticalAlignment="Top" Width="173">
+                        <Label Content="Пароль"/>
+                    </Label>
+                    <TextBox HorizontalAlignment="Left" Margin="99,115,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="173" Height="28"/>
+                    <Button Content="Увійти" HorizontalAlignment="Left" Margin="98,353,0,0" VerticalAlignment="Top" Click="Button_Click" Width="174" Height="25"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Реєстрація" Margin="40,0,-178,0">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Label HorizontalAlignment="Left" Margin="97,32,0,0" VerticalAlignment="Top" Width="173">
+                        <Label Content="Логін"/>
+                    </Label>
+                    <PasswordBox HorizontalAlignment="Left" Margin="97,151,0,0" VerticalAlignment="Top" Width="175" Height="28"/>
+                    <Label HorizontalAlignment="Left" Margin="99,115,0,0" VerticalAlignment="Top" Width="173">
+                        <Label Content="Пароль"/>
+                    </Label>
+                    <TextBox HorizontalAlignment="Left" Margin="99,73,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="173" Height="28"/>
+                    <Label HorizontalAlignment="Left" Margin="97,190,0,0" VerticalAlignment="Top" Width="173">
+                        <Label Content="Повторити пароль"/>
+                    </Label>
+                    <PasswordBox HorizontalAlignment="Left" Margin="98,231,0,0" VerticalAlignment="Top" Width="175" Height="28"/>
+                    <ComboBox HorizontalAlignment="Left" Margin="99,292,0,0" VerticalAlignment="Top" Width="174" RenderTransformOrigin="0.498,0.55">
+                        <ComboBoxItem IsSelected="True">Програміст</ComboBoxItem>
+                        <ComboBoxItem>Лікар</ComboBoxItem>
+                        <ComboBoxItem>Математик</ComboBoxItem>
+                    </ComboBox>
+                    <Button Content="Зареєструватися" HorizontalAlignment="Left" Margin="98,353,0,0" VerticalAlignment="Top" Click="Button_Click" Width="175" Height="25"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
 
     </Grid>
 </Window>

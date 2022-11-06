@@ -1,19 +1,19 @@
 ﻿wpfEnjoffer
-1.0.0.0
+
 
 winexe
 C#
 .cs
-d:\projects\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\obj\Debug\net6.0-windows\
-wpfEnjoffer
+D:\projects\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\obj\Debug\net6.0-windows\
+wpfEnjoffer_ujwa3pi3_wpftmp
 none
 false
-TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-d:\projects\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\App.xaml
+TRACE;RELEASE;NET;NET6_0;NETCOREAPP
+D:\projects\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\App.xaml
 11407045341
 
-5901341691
-1941905061893
+5-741521782
+388-484843510
 MainWindow.xaml;
 
 True
