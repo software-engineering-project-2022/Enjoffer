@@ -6,8 +6,8 @@ namespace ConsoleApp
     public class Database
     {
         protected NpgsqlConnection Connection { get; set; }
-        protected NpgsqlCommand Command { get; set; }
-        protected NpgsqlDataReader Reader { get; set; }
+        protected NpgsqlCommand? Command { get; set; }
+        protected NpgsqlDataReader? Reader { get; set; }
 
         public Database(string dbName)
         {

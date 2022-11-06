@@ -18,7 +18,7 @@
 
                     Console.Write("Enter number of task:\t");
 
-                    string num = Console.ReadLine();
+                    string? num = Console.ReadLine();
 
                     if (num == "1")
                     {
