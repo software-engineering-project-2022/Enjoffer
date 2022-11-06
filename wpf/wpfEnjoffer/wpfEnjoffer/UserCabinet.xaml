@@ -8,44 +8,42 @@
         Title="Enjoffer. Особистий кабінет" Height="720" Width="1024"
         WindowStartupLocation="CenterScreen"
         ResizeMode="NoResize">
-    
+
     <Window.Resources>
         <ControlTemplate x:Key="LeftMenuButtons" TargetType="Button">
             <Grid Name="Btn" Height="235" VerticalAlignment="Center" HorizontalAlignment="Center">
-                
-                    <StackPanel VerticalAlignment="Center">
+
+                <StackPanel VerticalAlignment="Center">
                     <Label Height="Auto" Content="{TemplateBinding Content}" Background="Transparent" FontSize="24" VerticalAlignment="Center">
                         <Label.Style>
                             <Style TargetType="Label">
                                 <Setter Property="Foreground" Value="DarkGreen">
-                                    
+
                                 </Setter>
                             </Style>
                         </Label.Style>
                     </Label>
-                    </StackPanel>
-                
+                </StackPanel>
+
             </Grid>
         </ControlTemplate>
     </Window.Resources>
-    
+
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="300"/>
-            <ColumnDefinition/>
-
+            <ColumnDefinition Width="1.5*" />
+            <ColumnDefinition Width="4*" />
         </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
 
+        <Border BorderThickness="3, 0, 3, 0" BorderBrush="DarkGreen" Grid.RowSpan="3"/>
+        <Button Template="{StaticResource ResourceKey=LeftMenuButtons}" Content="Особистий кабінет" Grid.Column="0" Grid.ColumnSpan="1" Grid.Row="0"></Button>
+        <Button Template="{StaticResource ResourceKey=LeftMenuButtons}" Content="Тренажер слів" Grid.Column="0"  Grid.Row="1"></Button>
+        <Button Template="{StaticResource ResourceKey=LeftMenuButtons}" Content="Книги" Grid.Column="0" Grid.Row="2"></Button>
 
-        <Grid x:Name="SlideMenu" >
-            <Border BorderThickness="3, 0, 3, 0" BorderBrush="Aquamarine"/>
-            <StackPanel Orientation="Vertical">
-                <Button Template="{StaticResource ResourceKey=LeftMenuButtons}" VerticalAlignment="Center" Content="Особистий кабінет"></Button>
-                <Button Template="{StaticResource ResourceKey=LeftMenuButtons}" Content="Тренажер слів"></Button>
-                <Button Template="{StaticResource ResourceKey=LeftMenuButtons}" Content="Книги"></Button>
-            </StackPanel>
-            
-            
-        </Grid>
     </Grid>
 </Window>

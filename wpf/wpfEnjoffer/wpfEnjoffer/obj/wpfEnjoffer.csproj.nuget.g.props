@@ -13,4 +13,7 @@
     <SourceRoot Include="C:\Users\user\.nuget\packages\" />
     <SourceRoot Include="D:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
   </ItemGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgScottPlot_WPF Condition=" '$(PkgScottPlot_WPF)' == '' ">C:\Users\user\.nuget\packages\scottplot.wpf\4.1.58</PkgScottPlot_WPF>
+  </PropertyGroup>
 </Project>

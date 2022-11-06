@@ -1,10 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "rbF4TT0dGccvPMg0Wv6nMtMt28L4b1AxgWCbDycSHL/0P5cFsuq76g5h8qwX5YIK3A3Ym/f5HN4WG5W0zTadHA==",
+  "dgSpecHash": "+pH4rX3QEwRxazz3OH3eZtQRYr/VKl1nRYG0SE7IozOM+eh3NjkE077HNnVTkWvPBzPD7tnorxcqQfo6o1OH1Q==",
   "success": true,
   "projectFilePath": "D:\\Programming C#\\Enjoffer\\wpf\\wpfEnjoffer\\wpfEnjoffer\\wpfEnjoffer.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\user\\.nuget\\packages\\spicytaco.autogrid\\1.2.29\\spicytaco.autogrid.1.2.29.nupkg.sha512"
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.platforms\\3.0.0\\microsoft.netcore.platforms.3.0.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.win32.systemevents\\4.6.0\\microsoft.win32.systemevents.4.6.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\scottplot\\4.1.58\\scottplot.4.1.58.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\scottplot.wpf\\4.1.58\\scottplot.wpf.4.1.58.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\spicytaco.autogrid\\1.2.29\\spicytaco.autogrid.1.2.29.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\system.drawing.common\\4.6.1\\system.drawing.common.4.6.1.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512"
   ],
   "logs": [
     {

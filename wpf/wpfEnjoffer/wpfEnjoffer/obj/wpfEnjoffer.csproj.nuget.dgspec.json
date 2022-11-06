@@ -44,6 +44,10 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "dependencies": {
+            "ScottPlot.WPF": {
+              "target": "Package",
+              "version": "[4.1.58, )"
+            },
             "SpicyTaco.AutoGrid": {
               "target": "Package",
               "version": "[1.2.29, )"
