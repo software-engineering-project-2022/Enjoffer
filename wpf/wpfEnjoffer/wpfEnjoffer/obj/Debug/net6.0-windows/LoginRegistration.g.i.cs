@@ -54,7 +54,7 @@ namespace wpfEnjoffer {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/wpfEnjoffer;component/loginregistration.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/wpfEnjoffer;V1.0.0.0;component/loginregistration.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\LoginRegistration.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -27,5 +27,3 @@ D:\projects\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\bin\Debug\net6.0-windows\ScottP
 D:\projects\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\obj\Debug\net6.0-windows\Books.g.cs
 D:\projects\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\obj\Debug\net6.0-windows\Books.baml
 D:\projects\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\obj\Debug\net6.0-windows\wpfEnjoffer.csproj.CopyComplete
-D:\projects\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\obj\Debug\net6.0-windows\Plot.g.cs
-D:\projects\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\obj\Debug\net6.0-windows\Plot.baml
