@@ -1,11 +1,36 @@
 {
   "version": 3,
   "targets": {
-    "net6.0-windows7.0": {}
+    "net6.0-windows7.0": {
+      "SpicyTaco.AutoGrid/1.2.29": {
+        "type": "package",
+        "compile": {
+          "lib/net40/SpicyTaco.AutoGrid.dll": {}
+        },
+        "runtime": {
+          "lib/net40/SpicyTaco.AutoGrid.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "SpicyTaco.AutoGrid/1.2.29": {
+      "sha512": "dGGoj9Fc8WJI22efvC3P4oUm4tv+vT19j5aGKal9NOuRYw+BaRjCuZdNcNlfwd8ktRQu8nSEVnNbH3s6deH7sg==",
+      "type": "package",
+      "path": "spicytaco.autogrid/1.2.29",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/SpicyTaco.AutoGrid.dll",
+        "spicytaco.autogrid.1.2.29.nupkg.sha512",
+        "spicytaco.autogrid.nuspec"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0-windows7.0": []
+    "net6.0-windows7.0": [
+      "SpicyTaco.AutoGrid >= 1.2.29"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\user\\.nuget\\packages\\": {},
@@ -50,6 +75,12 @@
     "frameworks": {
       "net6.0-windows7.0": {
         "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "SpicyTaco.AutoGrid": {
+            "target": "Package",
+            "version": "[1.2.29, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -71,5 +102,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'SpicyTaco.AutoGrid 1.2.29' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "SpicyTaco.AutoGrid",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
 }

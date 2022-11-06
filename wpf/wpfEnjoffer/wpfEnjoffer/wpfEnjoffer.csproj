@@ -7,4 +7,8 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="SpicyTaco.AutoGrid" Version="1.2.29" />
+  </ItemGroup>
+
 </Project>

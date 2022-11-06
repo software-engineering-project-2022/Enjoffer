@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "wpfEnjoffer/1.0.0": {
+        "dependencies": {
+          "SpicyTaco.AutoGrid": "1.2.29"
+        },
+        "runtime": {
+          "wpfEnjoffer.dll": {}
+        }
+      },
+      "SpicyTaco.AutoGrid/1.2.29": {
+        "runtime": {
+          "lib/net40/SpicyTaco.AutoGrid.dll": {
+            "assemblyVersion": "1.2.29.0",
+            "fileVersion": "1.2.29.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "wpfEnjoffer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SpicyTaco.AutoGrid/1.2.29": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dGGoj9Fc8WJI22efvC3P4oUm4tv+vT19j5aGKal9NOuRYw+BaRjCuZdNcNlfwd8ktRQu8nSEVnNbH3s6deH7sg==",
+      "path": "spicytaco.autogrid/1.2.29",
+      "hashPath": "spicytaco.autogrid.1.2.29.nupkg.sha512"
+    }
+  }
+}
