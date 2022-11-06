@@ -9,10 +9,10 @@
         WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
     <Window.Resources>
         <ControlTemplate x:Key="LeftMenuButtons" TargetType="Button">
-            <Grid Name="Btn" Height="235">
+            <Grid Name="Btn" Height="235" VerticalAlignment="Center" HorizontalAlignment="Center">
 
-                <StackPanel>
-                    <Label Content="{TemplateBinding Content}" Background="Transparent" FontSize="24" VerticalAlignment="Center">
+                <StackPanel VerticalAlignment="Center">
+                    <Label Height="Auto" Content="{TemplateBinding Content}" Background="Transparent" FontSize="24" VerticalAlignment="Center">
                         <Label.Style>
                             <Style TargetType="Label">
                                 <Setter Property="Foreground" Value="DarkGreen">
@@ -46,11 +46,11 @@
 
         </Grid>
         <Image Grid.Column="1" HorizontalAlignment="Center" Height="277" Margin="0,40,0,0" VerticalAlignment="Top" Width="356" Source="/image1.jpg"/>
-        <TextBox IsEnabled="False" Grid.Column="1" BorderBrush="Transparent" Text="Please," HorizontalAlignment="Center" Margin="0,383,0,0" VerticalAlignment="Top" Width="683" FontSize="24" TextChanged="TextBox_TextChanged_1"/>
-        <TextBox Grid.Column="1" HorizontalAlignment="Center" Margin="0,456,0,0" VerticalAlignment="Top" Width="683" Height="39" TextChanged="TextBox_TextChanged" FontSize="24"/>
-        <TextBox IsEnabled="False" Grid.Column="1" BorderBrush="Transparent" Text="your hotel reservation within two days" HorizontalAlignment="Center" Margin="0,531,0,0" VerticalAlignment="Top" Width="683" FontSize="24"/>
-        <TextBox IsEnabled="False" Grid.Column="1" BorderBrush="Transparent" Text="(Переклад слова)" HorizontalAlignment="Center" Margin="0,580,0,0" VerticalAlignment="Top" Width="704" FontSize="15" TextAlignment="Center"/>
-        <Button Template="{StaticResource ResourceKey=roundedButton}" Grid.Column="1" Content="Підтвердити" HorizontalAlignment="Left" Margin="145,625,0,0" VerticalAlignment="Top" Width="162" Height="34" FontSize="20"/>
-        <Button Template="{StaticResource ResourceKey=roundedButton}" Grid.Column="1" Content="Підказка" HorizontalAlignment="Left" Margin="417,625,0,0" VerticalAlignment="Top" Width="162" Height="34" FontSize="18"/>
+        <TextBox IsEnabled="False" Grid.Column="1" BorderBrush="Transparent" Text="Please," HorizontalAlignment="Center" Margin="0,352,0,0" VerticalAlignment="Top" Width="684" FontSize="24" TextChanged="TextBox_TextChanged_1"/>
+        <TextBox Grid.Column="1" HorizontalAlignment="Center" Margin="0,414,0,0" VerticalAlignment="Top" Width="684" Height="39" TextChanged="TextBox_TextChanged" FontSize="24"/>
+        <TextBox IsEnabled="False" Grid.Column="1" BorderBrush="Transparent" Text="your hotel reservation within two days" HorizontalAlignment="Center" Margin="0,487,0,0" VerticalAlignment="Top" Width="683" FontSize="24"/>
+        <TextBox IsEnabled="False" Grid.Column="1" BorderBrush="Transparent" Text="(Переклад слова)" HorizontalAlignment="Center" Margin="0,545,0,0" VerticalAlignment="Top" Width="704" FontSize="15" TextAlignment="Center"/>
+        <Button Template="{StaticResource ResourceKey=roundedButton}" Grid.Column="1" Content="Підтвердити" HorizontalAlignment="Left" Margin="131,599,0,0" VerticalAlignment="Top" Width="162" Height="34" FontSize="20"/>
+        <Button Template="{StaticResource ResourceKey=roundedButton}" Grid.Column="1" Content="Підказка" HorizontalAlignment="Left" Margin="429,600,0,0" VerticalAlignment="Top" Width="162" Height="34" FontSize="18"/>
     </Grid>
 </Window>

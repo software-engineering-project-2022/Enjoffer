@@ -22,3 +22,10 @@ D:\projects\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\obj\Debug\net6.0-windows\WordsT
 D:\projects\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\obj\Debug\net6.0-windows\App.baml
 D:\projects\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\obj\Debug\net6.0-windows\LoginRegistration.baml
 D:\projects\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\obj\Debug\net6.0-windows\WordsTrainer.baml
+D:\projects\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\bin\Debug\net6.0-windows\ScottPlot.dll
+D:\projects\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\bin\Debug\net6.0-windows\ScottPlot.WPF.dll
+D:\projects\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\obj\Debug\net6.0-windows\Books.g.cs
+D:\projects\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\obj\Debug\net6.0-windows\Books.baml
+D:\projects\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\obj\Debug\net6.0-windows\wpfEnjoffer.csproj.CopyComplete
+D:\projects\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\obj\Debug\net6.0-windows\Plot.g.cs
+D:\projects\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\obj\Debug\net6.0-windows\Plot.baml

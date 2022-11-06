@@ -23,7 +23,7 @@
                     </Label>
                     <TextBox HorizontalAlignment="Left" Margin="99,115,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="173" Height="28"/>
 
-                    <Button Template="{StaticResource ResourceKey=roundedButton}" Content="Увійти" HorizontalAlignment="Left" Margin="98,353,0,0" VerticalAlignment="Top" Click="Button_Click" Width="174" Height="25" FontFamily="Arial"/>
+                    <Button Template="{StaticResource ResourceKey=roundedButton}" Content="Увійти" HorizontalAlignment="Left" Margin="98,345,0,0" VerticalAlignment="Top" Click="Button_Click" Width="174" Height="33" FontFamily="Arial"/>
                 </Grid>
             </TabItem>
             <TabItem Header="Реєстрація" Margin="40,0,-178,0">
@@ -48,7 +48,7 @@
                         <ComboBoxItem>Лікар</ComboBoxItem>
                         <ComboBoxItem>Математик</ComboBoxItem>
                     </ComboBox>
-                    <Button Template="{StaticResource ResourceKey=roundedButton}" Content="Зареєструватися" HorizontalAlignment="Left" Margin="98,353,0,0" VerticalAlignment="Top" Click="Button_Click" Width="175" Height="25"/>
+                    <Button Template="{StaticResource ResourceKey=roundedButton}" Content="Зареєструватися" HorizontalAlignment="Left" Margin="98,345,0,0" VerticalAlignment="Top" Click="Button_Click" Width="175" Height="33"/>
                 </Grid>
             </TabItem>
         </TabControl>
