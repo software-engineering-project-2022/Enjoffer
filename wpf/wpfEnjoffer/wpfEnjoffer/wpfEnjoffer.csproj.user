@@ -7,7 +7,15 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="MainWindow.xaml">
+    <Compile Update="WordsTrainer.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="LoginRegistration.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WordsTrainer.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

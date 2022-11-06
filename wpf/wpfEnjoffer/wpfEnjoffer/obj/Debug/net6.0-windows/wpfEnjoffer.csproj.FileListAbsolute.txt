@@ -5,11 +5,9 @@ D:\projects\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\bin\Debug\net6.0-windows\wpfEnj
 D:\projects\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\bin\Debug\net6.0-windows\ref\wpfEnjoffer.dll
 D:\projects\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\bin\Debug\net6.0-windows\wpfEnjoffer.pdb
 D:\projects\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\obj\Debug\net6.0-windows\wpfEnjoffer.csproj.AssemblyReference.cache
-D:\projects\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\obj\Debug\net6.0-windows\MainWindow.g.cs
 D:\projects\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\obj\Debug\net6.0-windows\App.g.cs
 D:\projects\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\obj\Debug\net6.0-windows\wpfEnjoffer_MarkupCompile.cache
 D:\projects\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\obj\Debug\net6.0-windows\wpfEnjoffer_MarkupCompile.lref
-D:\projects\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\obj\Debug\net6.0-windows\MainWindow.baml
 D:\projects\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\obj\Debug\net6.0-windows\wpfEnjoffer.g.resources
 D:\projects\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\obj\Debug\net6.0-windows\wpfEnjoffer.GeneratedMSBuildEditorConfig.editorconfig
 D:\projects\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\obj\Debug\net6.0-windows\wpfEnjoffer.AssemblyInfoInputs.cache
@@ -19,3 +17,8 @@ D:\projects\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\obj\Debug\net6.0-windows\wpfEnj
 D:\projects\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\obj\Debug\net6.0-windows\ref\wpfEnjoffer.dll
 D:\projects\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\obj\Debug\net6.0-windows\wpfEnjoffer.pdb
 D:\projects\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\obj\Debug\net6.0-windows\wpfEnjoffer.genruntimeconfig.cache
+D:\projects\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\obj\Debug\net6.0-windows\LoginRegistration.g.cs
+D:\projects\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\obj\Debug\net6.0-windows\WordsTrainer.g.cs
+D:\projects\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\obj\Debug\net6.0-windows\App.baml
+D:\projects\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\obj\Debug\net6.0-windows\LoginRegistration.baml
+D:\projects\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\obj\Debug\net6.0-windows\WordsTrainer.baml
