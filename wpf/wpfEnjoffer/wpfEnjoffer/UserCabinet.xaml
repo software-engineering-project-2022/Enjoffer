@@ -8,6 +8,27 @@
         Title="Enjoffer. Особистий кабінет" Height="720" Width="1024"
         WindowStartupLocation="CenterScreen"
         ResizeMode="NoResize">
+    
+    <Window.Resources>
+        <ControlTemplate x:Key="LeftMenuButtons" TargetType="Button">
+            <Grid Name="Btn" Height="235">
+                
+                    <StackPanel>
+                    <Label Content="{TemplateBinding Content}" Background="Transparent" FontSize="24" VerticalAlignment="Center">
+                        <Label.Style>
+                            <Style TargetType="Label">
+                                <Setter Property="Foreground" Value="Aquamarine">
+                                    
+                                </Setter>
+                            </Style>
+                        </Label.Style>
+                    </Label>
+                    </StackPanel>
+                
+            </Grid>
+        </ControlTemplate>
+    </Window.Resources>
+    
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="300"/>
@@ -16,12 +37,12 @@
         </Grid.ColumnDefinitions>
 
 
-        <Grid Name="SlideMenu" >
+        <Grid x:Name="SlideMenu" >
             <Border BorderThickness="3, 0, 3, 0" BorderBrush="Aquamarine"/>
             <StackPanel Orientation="Vertical">
-                <Button Height="235"></Button>
-                <Button Height="235"></Button>
-                <Button Height="235"></Button>
+                <Button Template="{StaticResource ResourceKey=LeftMenuButtons}" Content="Особистий кабінет"></Button>
+                <Button Template="{StaticResource ResourceKey=LeftMenuButtons}" Content="Тренажер слів"></Button>
+                <Button Template="{StaticResource ResourceKey=LeftMenuButtons}" Content="Книги"></Button>
             </StackPanel>
             
             
