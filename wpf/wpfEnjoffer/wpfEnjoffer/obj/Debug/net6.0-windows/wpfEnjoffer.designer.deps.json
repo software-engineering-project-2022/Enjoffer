@@ -10,69 +10,23 @@
       "Microsoft.Win32.SystemEvents/4.6.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.0.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll": {
-            "assemblyVersion": "4.0.1.0",
-            "fileVersion": "4.700.19.46214"
-          }
-        },
-        "runtimeTargets": {
-          "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll": {
-            "rid": "win",
-            "assetType": "runtime",
-            "assemblyVersion": "4.0.1.0",
-            "fileVersion": "4.700.19.46214"
-          }
         }
       },
       "ScottPlot/4.1.58": {
         "dependencies": {
           "System.Drawing.Common": "4.6.1",
           "System.Numerics.Vectors": "4.5.0"
-        },
-        "runtime": {
-          "lib/net6.0/ScottPlot.dll": {
-            "assemblyVersion": "4.1.58.0",
-            "fileVersion": "4.1.58.0"
-          }
         }
       },
       "ScottPlot.WPF/4.1.58": {
         "dependencies": {
           "ScottPlot": "4.1.58"
-        },
-        "runtime": {
-          "lib/net6.0-windows7.0/ScottPlot.WPF.dll": {
-            "assemblyVersion": "4.1.58.0",
-            "fileVersion": "4.1.58.0"
-          }
         }
       },
       "System.Drawing.Common/4.6.1": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.0.0",
           "Microsoft.Win32.SystemEvents": "4.6.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/System.Drawing.Common.dll": {
-            "assemblyVersion": "4.0.0.1",
-            "fileVersion": "4.6.26919.2"
-          }
-        },
-        "runtimeTargets": {
-          "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll": {
-            "rid": "unix",
-            "assetType": "runtime",
-            "assemblyVersion": "4.0.1.1",
-            "fileVersion": "4.700.19.51609"
-          },
-          "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll": {
-            "rid": "win",
-            "assetType": "runtime",
-            "assemblyVersion": "4.0.1.1",
-            "fileVersion": "4.700.19.51609"
-          }
         }
       },
       "System.Numerics.Vectors/4.5.0": {}

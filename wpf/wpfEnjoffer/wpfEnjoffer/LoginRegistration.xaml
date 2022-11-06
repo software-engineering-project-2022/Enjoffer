@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:wpfEnjoffer"
         mc:Ignorable="d"
-        Title="MainWindow" Height="720" Width="1024">
+        Title="MainWindow" Height="720" Width="1024" ResizeMode="NoResize">
 
     <Grid Margin="320,144,321,198">
         <TabControl Margin="0,-57,0,-35">

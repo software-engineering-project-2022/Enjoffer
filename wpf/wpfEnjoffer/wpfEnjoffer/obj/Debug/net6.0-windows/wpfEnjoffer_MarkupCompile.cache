@@ -4,16 +4,24 @@
 winexe
 C#
 .cs
-D:\projects\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\obj\Debug\net6.0-windows\
+D:\Programming C#\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\obj\Debug\net6.0-windows\
 wpfEnjoffer
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
+<<<<<<< HEAD
 D:\projects\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\App.xaml
 31410690296
 
 5-1593329532
 1972107333221
+=======
+D:\Programming C#\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\App.xaml
+31410690296
+
+5-1593329532
+197-183981398
+>>>>>>> cd417a7dc52d4969a8591d0ef27e8f8c5c5a04fa
 Books.xaml;LoginRegistration.xaml;WordsTrainer.xaml;
 
 False

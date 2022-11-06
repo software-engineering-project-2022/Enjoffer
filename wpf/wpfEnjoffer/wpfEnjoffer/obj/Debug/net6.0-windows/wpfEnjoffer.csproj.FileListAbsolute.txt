@@ -27,3 +27,37 @@ D:\projects\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\bin\Debug\net6.0-windows\ScottP
 D:\projects\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\obj\Debug\net6.0-windows\Books.g.cs
 D:\projects\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\obj\Debug\net6.0-windows\Books.baml
 D:\projects\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\obj\Debug\net6.0-windows\wpfEnjoffer.csproj.CopyComplete
+<<<<<<< HEAD
+=======
+D:\projects\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\obj\Debug\net6.0-windows\Plot.g.cs
+D:\projects\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\obj\Debug\net6.0-windows\Plot.baml
+D:\Programming C#\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\bin\Debug\net6.0-windows\wpfEnjoffer.exe
+D:\Programming C#\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\bin\Debug\net6.0-windows\wpfEnjoffer.deps.json
+D:\Programming C#\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\bin\Debug\net6.0-windows\wpfEnjoffer.runtimeconfig.json
+D:\Programming C#\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\bin\Debug\net6.0-windows\wpfEnjoffer.dll
+D:\Programming C#\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\bin\Debug\net6.0-windows\wpfEnjoffer.pdb
+D:\Programming C#\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\bin\Debug\net6.0-windows\ScottPlot.dll
+D:\Programming C#\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\bin\Debug\net6.0-windows\ScottPlot.WPF.dll
+D:\Programming C#\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\obj\Debug\net6.0-windows\wpfEnjoffer.csproj.AssemblyReference.cache
+D:\Programming C#\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\obj\Debug\net6.0-windows\Books.g.cs
+D:\Programming C#\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\obj\Debug\net6.0-windows\LoginRegistration.g.cs
+D:\Programming C#\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\obj\Debug\net6.0-windows\WordsTrainer.g.cs
+D:\Programming C#\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\obj\Debug\net6.0-windows\App.g.cs
+D:\Programming C#\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\obj\Debug\net6.0-windows\wpfEnjoffer_MarkupCompile.cache
+D:\Programming C#\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\obj\Debug\net6.0-windows\wpfEnjoffer_MarkupCompile.lref
+D:\Programming C#\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\obj\Debug\net6.0-windows\App.baml
+D:\Programming C#\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\obj\Debug\net6.0-windows\Books.baml
+D:\Programming C#\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\obj\Debug\net6.0-windows\LoginRegistration.baml
+D:\Programming C#\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\obj\Debug\net6.0-windows\WordsTrainer.baml
+D:\Programming C#\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\obj\Debug\net6.0-windows\wpfEnjoffer.g.resources
+D:\Programming C#\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\obj\Debug\net6.0-windows\wpfEnjoffer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming C#\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\obj\Debug\net6.0-windows\wpfEnjoffer.AssemblyInfoInputs.cache
+D:\Programming C#\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\obj\Debug\net6.0-windows\wpfEnjoffer.AssemblyInfo.cs
+D:\Programming C#\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\obj\Debug\net6.0-windows\wpfEnjoffer.csproj.CoreCompileInputs.cache
+D:\Programming C#\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\obj\Debug\net6.0-windows\wpfEnjoffer.csproj.CopyComplete
+D:\Programming C#\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\obj\Debug\net6.0-windows\wpfEnjoffer.dll
+D:\Programming C#\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\obj\Debug\net6.0-windows\refint\wpfEnjoffer.dll
+D:\Programming C#\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\obj\Debug\net6.0-windows\wpfEnjoffer.pdb
+D:\Programming C#\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\obj\Debug\net6.0-windows\wpfEnjoffer.genruntimeconfig.cache
+D:\Programming C#\Enjoffer\wpf\wpfEnjoffer\wpfEnjoffer\obj\Debug\net6.0-windows\ref\wpfEnjoffer.dll
+>>>>>>> cd417a7dc52d4969a8591d0ef27e8f8c5c5a04fa

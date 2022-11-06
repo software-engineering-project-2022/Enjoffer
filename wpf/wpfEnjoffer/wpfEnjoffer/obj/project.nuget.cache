@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "60y1gGPLEvxELF/G9OqcyLkNW386yisjIW1Xp7fLZn92HeZEPmJe5Ucpq1lDloE2xnGF6UPwvzYGGhW67arsRA==",
+  "dgSpecHash": "chePidKIEHLfAS/VNEaJuggfgIhyII0USSeE92Cl4gCk1r1Es8/t+tGCr6ANR8cXGPu0EFWkHd0t03WazRXrfg==",
   "success": true,
-  "projectFilePath": "D:\\projects\\Enjoffer\\wpf\\wpfEnjoffer\\wpfEnjoffer\\wpfEnjoffer.csproj",
+  "projectFilePath": "D:\\Programming C#\\Enjoffer\\wpf\\wpfEnjoffer\\wpfEnjoffer\\wpfEnjoffer.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.platforms\\3.0.0\\microsoft.netcore.platforms.3.0.0.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\microsoft.win32.systemevents\\4.6.0\\microsoft.win32.systemevents.4.6.0.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\scottplot\\4.1.58\\scottplot.4.1.58.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\scottplot.wpf\\4.1.58\\scottplot.wpf.4.1.58.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\system.drawing.common\\4.6.1\\system.drawing.common.4.6.1.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512"
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.platforms\\3.0.0\\microsoft.netcore.platforms.3.0.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.win32.systemevents\\4.6.0\\microsoft.win32.systemevents.4.6.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\scottplot\\4.1.58\\scottplot.4.1.58.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\scottplot.wpf\\4.1.58\\scottplot.wpf.4.1.58.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\system.drawing.common\\4.6.1\\system.drawing.common.4.6.1.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }

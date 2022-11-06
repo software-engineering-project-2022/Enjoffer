@@ -62,7 +62,7 @@ namespace wpfEnjoffer {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/wpfEnjoffer;component/plot.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/wpfEnjoffer;V1.0.0.0;component/plot.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\Plot.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
