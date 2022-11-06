@@ -1,0 +1,56 @@
+﻿<Window x:Class="wpfEnjoffer.WordsTrainer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wpfEnjoffer"
+        mc:Ignorable="d"
+        Title="Enjoffer. Тренажер слів" Height="720" Width="1024" 
+        WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Window.Resources>
+        <ControlTemplate x:Key="LeftMenuButtons" TargetType="Button">
+            <Grid Name="Btn" Height="235" VerticalAlignment="Center" HorizontalAlignment="Center">
+
+                <StackPanel VerticalAlignment="Center">
+                    <Label Height="Auto" Content="{TemplateBinding Content}" Background="Transparent" FontSize="24" VerticalAlignment="Center">
+                        <Label.Style>
+                            <Style TargetType="Label">
+                                <Setter Property="Foreground" Value="DarkGreen">
+
+                                </Setter>
+                            </Style>
+                        </Label.Style>
+                    </Label>
+                </StackPanel>
+
+            </Grid>
+        </ControlTemplate>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="300"/>
+            <ColumnDefinition/>
+
+        </Grid.ColumnDefinitions>
+
+
+        <Grid x:Name="SlideMenu" >
+            <Border BorderThickness="3, 0, 3, 0" BorderBrush="Aquamarine"/>
+            <StackPanel Orientation="Vertical">
+                <Button Template="{StaticResource ResourceKey=LeftMenuButtons}" Content="Особистий кабінет"></Button>
+                <Button Template="{StaticResource ResourceKey=LeftMenuButtons}" Content="Тренажер слів"></Button>
+                <Button Template="{StaticResource ResourceKey=LeftMenuButtons}" Content="Книги"></Button>
+            </StackPanel>
+
+
+        </Grid>
+        <Image Grid.Column="1" HorizontalAlignment="Center" Height="277" Margin="0,40,0,0" VerticalAlignment="Top" Width="356" Source="/image1.jpg"/>
+        <TextBox IsEnabled="False" Grid.Column="1" BorderBrush="Transparent" Text="Please," HorizontalAlignment="Center" Margin="0,352,0,0" VerticalAlignment="Top" Width="684" FontSize="24" TextChanged="TextBox_TextChanged_1"/>
+        <TextBox Grid.Column="1" HorizontalAlignment="Center" Margin="0,414,0,0" VerticalAlignment="Top" Width="684" Height="39" TextChanged="TextBox_TextChanged" FontSize="24"/>
+        <TextBox IsEnabled="False" Grid.Column="1" BorderBrush="Transparent" Text="your hotel reservation within two days" HorizontalAlignment="Center" Margin="0,487,0,0" VerticalAlignment="Top" Width="683" FontSize="24"/>
+        <TextBox IsEnabled="False" Grid.Column="1" BorderBrush="Transparent" Text="(Переклад слова)" HorizontalAlignment="Center" Margin="0,545,0,0" VerticalAlignment="Top" Width="704" FontSize="15" TextAlignment="Center"/>
+        <Button Template="{StaticResource ResourceKey=roundedButton}" Grid.Column="1" Content="Підтвердити" HorizontalAlignment="Left" Margin="131,599,0,0" VerticalAlignment="Top" Width="162" Height="34" FontSize="20"/>
+        <Button Template="{StaticResource ResourceKey=roundedButton}" Grid.Column="1" Content="Підказка" HorizontalAlignment="Left" Margin="429,600,0,0" VerticalAlignment="Top" Width="162" Height="34" FontSize="18"/>
+    </Grid>
+</Window>

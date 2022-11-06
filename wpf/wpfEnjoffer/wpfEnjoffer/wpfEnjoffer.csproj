@@ -7,4 +7,23 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="book.jpg" />
+    <None Remove="books.png" />
+    <None Remove="books2.webp" />
+    <None Remove="image1.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ScottPlot" Version="4.1.58" />
+    <PackageReference Include="ScottPlot.WPF" Version="4.1.58" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="book.jpg" />
+    <Resource Include="books.png" />
+    <Resource Include="books2.webp" />
+    <Resource Include="image1.jpg" />
+  </ItemGroup>
+
 </Project>
